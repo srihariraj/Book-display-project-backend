@@ -22,7 +22,6 @@ public class Book {
     private String title;
     private String description;
     private boolean published;
-
-    // Getters and Setters
+//GETTER SETTER WILL BE ADDED AUTOMATICALLY BECASUE OF LOMBOK
     //ADD REQURIED COMMENTS FOR MORE CODE REDABILITY
 }
