@@ -5,10 +5,14 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.NoArgsConstructor;
 
 @Data
 @Entity
+@AllArgsConstructor
+@NoArgsConstructor
 @Table(name = "books")
 public class Book {
     @Id
@@ -20,4 +24,5 @@ public class Book {
     private boolean published;
 
     // Getters and Setters
+    //ADD REQURIED COMMENTS FOR MORE CODE REDABILITY
 }
